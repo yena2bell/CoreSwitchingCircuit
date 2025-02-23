@@ -61,7 +61,7 @@ def find_downstream_nodes_and_max_edge_weights(edges_dict, start_nodes):
 # def trace_max_edge_weights_for_initially_perturbed_region(links, profile_before_perturbation,
 #                                                           profile_after_perturbation1, profile_after_perturbation2,
 #                                                           perturbed_nodes1, perturbed_nodes2):
-#     """this function shows the max edge weights for each individual target perturbation
+#     """this function shows the maximum edge weights for each individual target perturbation
 #     simultaneously, on the same figure."""
 #     linkswithpositiveedgeweight_edgeweight_map1 = get_links_with_positive_edge_weight(links, profile_before_perturbation, profile_after_perturbation1)
 #     linkswithpositiveedgeweight_edgeweight_map2 = get_links_with_positive_edge_weight(links, profile_before_perturbation, profile_after_perturbation2)
@@ -160,8 +160,8 @@ def trace_max_edge_weights_for_initially_perturbed_region(links, profile_before_
 
     # Add labels and title
     plt.xlabel("Depth", fontsize=12)
-    plt.ylabel("Max edge weight", fontsize=12)
-    plt.title("Comparison of Max edge weights \nfor {}".format(name_of_perturbation), fontsize=16)
+    plt.ylabel("Maximum edge weight", fontsize=12)
+    plt.title("Comparison of Maximum edge weights \nfor {}".format(name_of_perturbation), fontsize=16)
 
     # Add legend
     plt.legend(fontsize=8)
